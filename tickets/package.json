@@ -7,7 +7,8 @@
     "start": "ts-node-dev src/index.ts",
     "test": "jest --watchAll --no-cache",
     "clear_jest": "jest --clearCache",
-    "show_config": "jest --showConfig"
+    "show_config": "jest --showConfig",
+    "test:ci": "jest"
   },
   "jest": {
     "preset": "ts-jest",
